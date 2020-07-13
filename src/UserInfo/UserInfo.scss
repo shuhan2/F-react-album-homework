@@ -1,4 +1,25 @@
-.UserInfo {
+.userInfo {
   padding-top: 60px;
   width: 400px;
+
+  .contact {
+    color: #888888;
+  }
+
+  .email, .phone, .website {
+    display: flex;
+    justify-content: space-between;
+
+    ul{
+      padding-left: 0px;
+      &:last-child {
+
+        color: blue;
+        margin-right: 0;
+      }
+    }
+
+
+  }
+
 }
